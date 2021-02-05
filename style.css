@@ -1,0 +1,224 @@
+.container-fluid{
+    background-color: #f5fbff;
+}
+
+.col-md-12 p, .col-xl-6 p{
+    margin: 0;
+    padding: 0;
+}
+p.social-media{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+}
+div.short-contact{
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 5%;
+}
+.social-media a{
+    text-decoration: none;
+    color: #919191;
+}
+.social-media a .fa{
+    padding: 0 10px;
+    font-size: 15px;
+}
+.social-media a .fa:hover{    
+    font-size: 20px;
+    color: black;
+}
+.short-contact ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.short-contact ul li{
+    list-style: none;
+    display: inline;
+}
+.short-contact ul li a{
+    color: #919191;
+    padding: 0 10px;
+}
+.short-contact ul li a .fa{
+    padding-right: 5px;
+}
+.short-contact ul li a .fa:hover{
+    font-size: 20px;
+    color: black;
+}
+
+/*====Header done=====*/
+
+
+/*===Second Header====*/
+
+/*.navbar a.col-4{
+    float: left;
+}*/
+nav.navbar div.col-4{
+    margin: 0;
+}
+nav.navbar a .logo-move{
+    margin-left: 40px;
+}
+nav.navbar div.col-4 div.btn-nav-r{
+    margin-left: 38%;
+}
+nav.navbar div.col-4 div.btn-nav-r a.btn-nav{
+    margin: 0;
+    background: #009dff;
+    color: white;
+    border-radius: 5px;
+}
+nav.navbar div.col-4 div.btn-nav-r a.btn-nav:hover{
+    background: white;
+    color: #009dff;
+    border-color: #009dff;
+    border-radius: 5px;
+}
+nav.navbar div.text{
+    margin-left: auto;
+    margin-right: auto;
+}
+nav.navbar div.collapse div.navbar-nav a.nav-item{
+    color: #666;
+    font: "Poppins", sans-serif;
+}
+
+
+
+
+
+
+.background-img{
+    background-image: url("img/background.jpg"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    margin: 0;
+    padding: 7.5%;
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+#feeling{
+    background-color: rgba(0, 13, 25, 0.4);
+}
+h1.quote, p.feel, p.quote{
+    color: white;
+}
+p.quote{
+    padding-bottom: 10px;
+}
+
+/*====Background img done====*/
+.row{
+    margin: 0;
+    padding: 0;
+}
+.col-xl-4{
+    margin: 0;
+    padding: 0;
+}
+div.card{
+    padding: 40px;
+}
+div.first{
+    border: 0;
+    border-radius: 0;
+    background: #83c4ff;
+    height: 350px;
+}
+div.second{
+    border: 0;
+    border-radius: 0;
+    background: #5db2ff;
+    height: 350px;
+    padding-left: 60px;
+}
+div.third{
+    border: 0;
+    border-radius: 0;
+    background: #83c4ff;
+    height: 350px;
+}
+img.covid{
+    width: 55px;
+    height: 55px;
+    margin-left: 20px;
+}
+.second i{
+    font-size: 55px;
+    margin-left: 20px;
+    color: white;
+}
+.third i{
+    font-size: 55px;
+    margin-left: 20px;
+    color: white;
+}
+div.card-block{
+    color: white;
+}
+a.btn-covid1{
+    background: none;
+    color: white;
+    border-color: white;
+    margin-top: 17.8%;
+}
+a.btn-covid2{
+    background: none;
+    color: white;
+    border-color: white;
+    margin-top: 5%;
+}
+a.btn-covid3{
+    background: none;
+    color: white;
+    border-color: white;
+    margin-top: 16.95%;
+}
+a.btn-covid1:hover, a.btn-covid2:hover, a.btn-covid3:hover{
+    background: white;
+    color: #5db2ff;
+    border-color: white;
+}
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    p.social-media{
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+    div.short-contact{
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+    .social-media a .fa{
+        padding: 0 15px;
+    }
+}
